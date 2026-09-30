@@ -103,7 +103,7 @@ export const services: Service[] = [
     points: ["React + TypeScript", "Tailwind design systems", "Performance & responsiveness"],
   },
   {
-    title: "Full-Stack Web Apps",
+    title: "Full-Stack Development",
     description:
       "End-to-end products — REST APIs, databases, admin panels and deployment on VPS or cloud.",
     points: ["Spring Boot / PHP APIs", "MySQL & MongoDB", "Admin panels & deployment"],
@@ -118,19 +118,21 @@ export const services: Service[] = [
 
 export const experiences: Experience[] = [
   {
-    role: "Freelance Frontend / Full-Stack Developer",
-    company: "Freelance",
-    period: "May 2026 – Present",
-    status: "current",
-    description:
-      "Working independently on freelance React.js / full-stack projects, including AI-powered workflow automation builds using n8n and Make.com.",
-    details: [
-      "React.js frontend development",
-      "Full-stack website and application development",
-      "AI-powered workflow automation",
-      "n8n and Make.com integrations",
-    ],
-  },
+  role: "Software Developer (WHF)",
+  company: "StartTech Software Solutions",
+  location: "Tamil Nadu, India",
+  period: "Sep 2025 – Sep 2026",
+  status: "current",
+  description:
+    "Contributed to full-stack development using React.js and Spring Boot, integrating REST APIs with MySQL while supporting application development, testing, debugging and deployment.",
+  details: [
+    "Frontend development using React.js, JavaScript, HTML and CSS",
+    "Full-stack application development with React.js and Spring Boot",
+    "REST API integration with Spring Boot",
+    "MySQL database integration and data handling",
+    "Application testing, debugging and deployment",
+  ],
+},
   {
     role: "Associate Software Engineer",
     company: "Tidy Digital Solutions",
@@ -147,8 +149,37 @@ export const experiences: Experience[] = [
       "Deployment and production support",
     ],
   },
+    {
+    role: "Freelance Frontend / Full-Stack Developer",
+    company: "Freelance",
+    period: "Sep 2024 – Present",
+    status: "current",
+    description:
+      "Working independently on freelance React.js / full-stack projects, including AI-powered workflow automation builds using n8n and Make.com.",
+    details: [
+      "React.js frontend development",
+      "Full-stack website and application development",
+      "AI-powered workflow automation",
+      "n8n and Make.com integrations",
+    ],
+  },
 ];
 export const projects: Project[] = [
+  {
+  title: "Adslife – Local Offers & Promotions Platform",
+  description:
+    "Real-world hyperlocal offers platform developed as part of the team, connecting local vendors with nearby consumers through mobile and web applications with location-based offer discovery and notifications.",
+  stack: [
+    "Flutter",
+    "Dart",
+    "React.js",
+    "JavaScript",
+    "REST APIs",
+    "MySQL",
+    "Push Notifications",
+  ],
+  liveUrl: "https://adslife.in/",
+},
   {
     title: "Your Perfect Eventz Management",
     description:

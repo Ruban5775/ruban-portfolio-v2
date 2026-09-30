@@ -63,7 +63,7 @@ export function Loader({ onDone }: { onDone: () => void }) {
             </div>
             <div className="flex items-end justify-between">
               <p className="max-w-xs text-sm text-muted-foreground">
-                Frontend Developer — building interfaces &amp; automations
+                Full-Stack Developer — building interfaces &amp; automations
               </p>
               <span className="display text-5xl text-secondary md:text-7xl">{count}</span>
             </div>

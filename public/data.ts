@@ -55,13 +55,13 @@ export type Contact = {
 
 export const profile: Profile = {
   name: "RUBAN M",
-  role: "Frontend Developer",
+  role: "Full-Stack Developer",
   tagline:
     "I build fast, responsive interfaces and full-stack web apps — with a serious side in AI workflow automation.",
-  bio: "Frontend-focused developer working with React.js, TypeScript and Tailwind CSS, comfortable across the full stack with PHP, Spring Boot and MySQL. I care about clean interfaces, fast load times and details that make a product feel finished. Alongside product work, I design AI-powered automation workflows with n8n and Make.com.",
-  status: "Freelance Frontend / Full-Stack Developer — available for new work",
+  bio: "Full-stack developer working with React.js, TypeScript and Tailwind CSS, comfortable across the full stack with PHP, Spring Boot and MySQL. I care about clean interfaces, fast load times and details that make a product feel finished. Alongside product work, I design AI-powered automation workflows with n8n and Make.com.",
+  status: "Freelance Full-Stack Developer — available for new work",
   stats: [
-    { value: "1.3+", label: "Years of experience" },
+    { value: "2+", label: "Years of experience" },
     { value: "10+", label: "Projects delivered" },
     { value: "5+", label: "Automations shipped" },
   ],
@@ -81,7 +81,7 @@ export const skills: SkillGroup[] = [
   {
     category: "Database",
     accent: "orange",
-    items: ["SQL", "MySQL", "Firebase", "MongoDB"],
+    items: ["SQL", "MySQL","SQLite", "Firebase",],
   },
   {
     category: "AI & Automation",

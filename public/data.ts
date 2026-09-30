@@ -137,7 +137,7 @@ export const experiences: Experience[] = [
     role: "Associate Software Engineer",
     company: "Tidy Digital Solutions",
     location: "Salem, Tamil Nadu",
-    period: "Feb 2025 – May 2026",
+    period: "Jan 2025 – Aug 2025",
     status: "past",
     description:
       "Contributed to frontend development with React.js, JavaScript, HTML and CSS, integrating REST APIs with Spring Boot and MySQL while supporting application development, testing, debugging and deployment.",
